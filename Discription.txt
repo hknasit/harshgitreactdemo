@@ -1,0 +1,2 @@
+I have created this project for DevOps assignment 1
+In this project I will make a counter 
