@@ -12,9 +12,11 @@ function App() {
       <h3>C0894125</h3>
 
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+      <button style={{backgroundColor:"#A0CCF0"}} onClick={() => setCount((oldCount) => oldCount +1)}>Increment</button>
+        <button  onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <button style={{backgroundColor:"#A0CCF0"}} onClick={() => setCount((oldCount) => oldCount -1)}>Decrement</button>
       </div>
     </>
   );
